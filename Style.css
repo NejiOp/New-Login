@@ -1,0 +1,77 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://th.bing.com/th/id/OIP.OF59vsDmwxPP1tw7b_8clQHaE8?pid=ImgDet&rs=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  width: 45vw;
+  height: 70vh;
+  margin-top: 15vh;
+  border-radius: 20px;
+  opacity: 0.5;
+  background-color: rgb(33, 33, 33);
+}
+
+.container:hover {
+  background-color: blue;
+}
+
+h2 {
+  padding-top: 3vh;
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb(133, 161, 210);
+}
+h2:hover {
+  color: rgb(7, 245, 47);
+}
+.form {
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
+  color: rgb(5, 247, 126);
+}
+
+label {
+  text-align: center;
+}
+
+.user input {
+  width: 15vw;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(100, 98, 98);
+}
+
+.pass input {
+  width: 15vw;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgb(100, 98, 98);
+}
+
+.user {
+  padding-top: 5vh;
+}
+
+button {
+  width: 12vw;
+  height: 7vh;
+  font-size: 1.2rem;
+  background-color: rgb(56, 2, 251);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(250, 6, 152);
+  color: rgb(171, 169, 169);
+}
