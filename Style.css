@@ -4,9 +4,11 @@
 }
 
 body {
-  background-image: url(https://th.bing.com/th/id/OIP.OF59vsDmwxPP1tw7b_8clQHaE8?pid=ImgDet&rs=1);
+  background-image: url(https://th.bing.com/th/id/R.7d54f9edb11a182580dd5edadc39e7b1?rik=d5aA88WSv371Bg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2fa%2f8%2f355306.jpg&ehk=5h3LcM219urISlmDwX%2fKX3%2b7SYD330QIfoASvFZbnNM%3d&risl=&pid=ImgRaw&r=0);
   background-repeat: no-repeat;
+  height: 80vh;
   background-size: cover;
+  justify-content: center;
 }
 
 .container {
@@ -15,28 +17,28 @@ body {
   height: 70vh;
   margin-top: 15vh;
   border-radius: 20px;
-  opacity: 0.5;
-  background-color: rgb(33, 33, 33);
+  opacity: 0.7;
+  background-color: rgb(3, 215, 248);
 }
 
 .container:hover {
-  background-color: blue;
+  background-color: rgb(43, 226, 61);
 }
 
 h2 {
   padding-top: 3vh;
   text-align: center;
   font-size: 1.8rem;
-  color: rgb(133, 161, 210);
+  color: rgb(253, 1, 127);
 }
 h2:hover {
-  color: rgb(7, 245, 47);
+  color: rgb(250, 0, 0);
 }
 .form {
   text-align: center;
   display: block;
   font-size: 1.5rem;
-  color: rgb(5, 247, 126);
+  color: rgb(247, 5, 5);
 }
 
 label {
@@ -45,6 +47,7 @@ label {
 
 .user input {
   width: 15vw;
+  color: black;
   border: none;
   background: none;
   border-bottom: 1px solid rgb(100, 98, 98);
@@ -54,7 +57,7 @@ label {
   width: 15vw;
   border: none;
   background: none;
-  border-bottom: 1px solid rgb(100, 98, 98);
+  border-bottom: 1px solid rgb(25, 24, 24);
 }
 
 .user {
@@ -65,13 +68,13 @@ button {
   width: 12vw;
   height: 7vh;
   font-size: 1.2rem;
-  background-color: rgb(56, 2, 251);
-  color: aliceblue;
+  background-color: rgb(253, 118, 0);
+  color: rgb(5, 136, 251);
   border: none;
   border-radius: 5px;
 }
 
 button:hover {
   background-color: rgb(250, 6, 152);
-  color: rgb(171, 169, 169);
+  color: rgb(15, 14, 14);
 }
